@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="home">
+<html class="text-center" id="home">
 
 <head>
     <meta charset="utf-8">
@@ -15,9 +15,12 @@
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean-1.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
     <link rel="stylesheet" href="assets/css/Scroll-To-Top.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script async src="https://arc.io/widget.min.js#ia5186K2"></script>
@@ -29,6 +32,8 @@
         <div class="container"><a class="navbar-brand" href="#learnmore">Raphiel's Blog</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -42,12 +47,15 @@
                 <h2 class="text-center">About Raphiel</h2>
                 <p class="text-center">Raphiel is a kid from Indonesia.</p>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#learnmore">Learn more</a></div>
+            <div class="buttons">
+                <a class="btn btn-primary" role="button" href="#learnmore">Learn more</a>
+                <a class="btn btn-primary" role="button" href="#projects">Projects</a>
+            </div>
         </div>
     </div>
     <div id="learnmore" class="article-clean">
         <div class="container">
-            <div class="row" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200" data-aos-once="true">
+            <div class="row d-flex align-items-center align-content-center align-self-center mx-auto" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200" data-aos-once="true">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                     <div class="intro">
                         <h1 class="text-center">My Story</h1>
@@ -58,7 +66,7 @@
                         <p></p>
                         <h2>Favorite Language</h2>
                         <p>My favorite Language is Japanese, English and Indonesia, my favorite programming language is Python, JavaScript, C#, HTM, and, CSS. I hate Java because it's hard to understand.</p>
-                        <figure id="contact">
+                        <figure>
                             <figcaption>My Contacts</figcaption>
                         </figure>
                         <p style="text-align:center;">Discord : Raphiel#4045</p>
@@ -67,10 +75,76 @@
             </div>
         </div>
     </div>
+    <div class="projects-horizontal" id="projects">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Projects </h2>
+                <p class="text-center">Raphiel's Coding Project</p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/python-logo.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Uruha Rushia (Discord Python)</h3>
+                            <p class="description">A Multifunctional Discord Bot that's still in developned for over half a year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/pixivjpg.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Pixiv Scraper</h3>
+                            <p class="description">A Python App using the module pixivpy3 and sys module. Project took 2 days to finish.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/python-logo.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Snowy project</h3>
+                            <p class="description">A semi-multi functional discord bot that's in the phase of developing and bug fixes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/python-logo.jpg"></a></div>
+                        <div class="col" style="align:center;">
+                            <h3 class="name">AkanekoPy project</h3>
+                            <p class="description">A API Inspired by NodeJS&nbsp;Akaneko API, Took 2 Days to finish and 2 hours of bug fixes</p>
+                            <br>
+                            <div class="button">
+                                <a class="btn btn-outline-primary btn-block text-nowrap text-truncate text-break text-center" role="button" href="https://pypi.org/project/akanekopy/" style="align: center;">Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/html5.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name"></h3>
+                            <h3 class="name">Blog Project</h3>
+                            <p class="description">HTML, CSS, JavaScript Project That You're reading right now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects-clean"></div>
     <div class="footer-basic">
         <footer data-aos="fade">
             <p class="copyright">Raphiel © 2021</p>
         </footer>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro"></div>
+        </div>
     </div>
     <div class="article-list"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
