@@ -250,7 +250,6 @@
          display: flex;
          align-items: center;
          justify-content: space-between;
-        //  background-color: red;
          padding: 0 5%;
          box-sizing: border-box;
          z-index: 3;
@@ -414,7 +413,7 @@
              vertical-align: middle;
          }
  
-         // All elements' containers
+         // All elements containers
          .one,
          .two,
          .three,
@@ -618,7 +617,7 @@
              position: absolute;
  
              &:before {
-                 content: '';
+                 content: "";
                  position: absolute;
                  width: 800px;
                  height: 800px;
@@ -648,10 +647,8 @@
          // Container 1
          .one {
              .content {
- 
-                 // Smaller Circle
                  &:before {
-                     content: '';
+                     content: "";
                      position: absolute;
                      width: 600px;
                      height: 600px;

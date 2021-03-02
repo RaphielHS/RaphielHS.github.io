@@ -43,11 +43,13 @@ function Cards() {
               src="/assets/python.jpg"
               text="Snowy project"
               label="Discord Bot"
+              path="javascript.alert('test')"
             />
             <CardItem
               src="/assets/html5.jpg"
               text="Blog Project"
               label="Website / Blog"
+              path="/"
             />
           </ul>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cards.css';
-import CardItem from './CardItem';
+// import CardItem from './CardItem';
 
 function Cards() {
   return (
@@ -41,13 +41,6 @@ function Cards() {
             <br></br>
             <p>Q. What IRL Language Do You Hate The Most?</p>
             <p>A. I hate Javanese, even though im a Javanese people, i can't understand any conversation using language Javanese.</p>
-            <br></br><br></br>
-            <h1>Blog Post</h1>
-            <br></br>
-            <ul className='cards__items'>
-              <br></br><br></br>
-              <h3>No Blog Post Found In Database.</h3>
-            </ul>
           </div>
         </div>
       </div>

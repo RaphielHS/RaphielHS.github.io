@@ -4,7 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/pages/Projects';
-import PageNotFound from './components/pages/404'
+import PageNotFound from './components/pages/404';
+import Started from './components/pages/started';
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/projects' component={Projects} />
+          <Route path="/started/" component={ Started }/>
           <Route path="" component={ PageNotFound }/>
         </Switch>
       </Router>

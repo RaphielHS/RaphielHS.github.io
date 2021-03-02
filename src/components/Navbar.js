@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import './pages/404.scss';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  // const [click, setClick] = useState(false);
   const [/*button*/, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  // const handleClick = () => setClick(!click);
+  // const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
