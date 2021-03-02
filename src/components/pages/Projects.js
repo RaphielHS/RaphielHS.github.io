@@ -2,11 +2,13 @@ import React from 'react';
 import '../Cards.css';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import '../../App.css';
+import Footer from '../Footer';
 import CardItem from '../CardItem';
 
 function Cards() {
   return (
-    <div className='cards' data-aos="fade-up" data-aos-duration="900" data-aos-delay="200" data-aos-once="true">
+    <div>
+    <div className='cards'>
       <h1>Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -19,26 +21,39 @@ function Cards() {
             />
           </ul> */}
           <ul className='cards__items'>
+            <CardItem
+              src='/assets/pixiv.jpg'
+              text='Pixiv Scraper Written in Python'
+              label='Scraper'
+            />
+            <CardItem
+              src='/assets/python.jpg'
+              text='Uruha Rushia (Discord Python)'
+              label='Discord Bot'
+            />
+          </ul>
+          <ul className='cards__items'>
           <CardItem
-                src='/assets/pixiv.jpg'
-                text='Pixiv Scraper Written in Python'
-                label='Scraper'
-                path='/projects'
-              />
-              <CardItem
-                src='/assets/python.jpg'
-                text='Uruha Rushia (Discord Python)'
-                label='Discord Bot'
-                path='/projects'
-              />
-              <CardItem
-                src='/assets/python.jpg'
-                text='AkanekoPy project'
-                label='API'
-              />
+              src='/assets/python.jpg'
+              text='AkanekoPy project'
+              label='API'
+              path="/akaneko"
+            />
+            <CardItem
+              src="/assets/python.jpg"
+              text="Snowy project"
+              label="Discord Bot"
+            />
+            <CardItem
+              src="/assets/html5.jpg"
+              text="Blog Project"
+              label="Website / Blog"
+            />
           </ul>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }

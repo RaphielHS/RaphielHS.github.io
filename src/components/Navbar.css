@@ -61,7 +61,8 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out 500ms;
+  transform: scale(1.1);
 }
 
 .fa-bars {
@@ -73,7 +74,7 @@
 }
 
 .menu-icon {
-  display: none;
+  display: inline-block;
 }
 
 @media screen and (max-width: 960px) {
@@ -112,6 +113,9 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
+    transform: scale(1.1);
+    transition: 500ms;
+    display: inline-block;
   }
 
   .navbar-logo {
@@ -119,6 +123,8 @@
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    transform: scale(1.1);
+    transition: 500ms;
   }
 
   .menu-icon {
