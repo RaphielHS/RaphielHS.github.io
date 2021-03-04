@@ -9,6 +9,12 @@ h1 {
   text-align: center;
 }
 
+.black {
+  display:inline;
+  background-color: black;
+  color: white;
+}
+
 .cards__container {
   color:black;
   display: flex;

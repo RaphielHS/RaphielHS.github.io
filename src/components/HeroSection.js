@@ -13,18 +13,11 @@ function HeroSection() {
       strength={-200}
       >
         <div className='hero-container'>
-          <video src='/videos/video-1.mp4' autoPlay loop muted />
+          {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
           <h1 class="a">About Raphiel</h1>
           <p>What Are You Waiting For?</p>
           <div className='hero-btns'>
-            {/* <Button
-              className='btns'
-              buttonStyle='btn--outline'
-              buttonSize='btn--large'
-              target="#aboutme"
-            > */}
               <a class="btns btn--outline btn--large no_style" href="#aboutme">LEARN MORE</a>
-            {/* </Button> */}
           </div>
         </div>
       </Parallax>

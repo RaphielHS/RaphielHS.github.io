@@ -16,8 +16,8 @@ function Blog() {
                         <br></br><br></br>
                         <ItemCard
                             src='/assets/starting_point.jpg'
-                            text='Where did it all started...'
-                            label='Blog'
+                            text='Where did it all started and why'
+                            label='Blog #1'
                             path='/started/#intro'
                         />
                         </ul>

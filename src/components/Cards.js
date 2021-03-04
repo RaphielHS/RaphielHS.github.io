@@ -40,7 +40,7 @@ function Cards() {
             <p>A. I Know a little bit of Japanese, i know Indonesia and English</p>
             <br></br>
             <p>Q. What IRL Language Do You Hate The Most?</p>
-            <p>A. I hate Javanese, even though im a Javanese people, i can't understand any conversation using language Javanese.</p>
+            <p>A. I hate <a style={{"text-decoration": "none"}} href="https://en.wikipedia.org/wiki/Javanese_language">Javanese</a>, even though im a Javanese people, i can't understand any conversation using language Javanese.</p>
           </div>
         </div>
       </div>
