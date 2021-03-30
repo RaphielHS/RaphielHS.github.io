@@ -7,11 +7,6 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div>
-      <Parallax
-      blur={{ min: -15, max: 15 }}
-      bgImage='/images/img-home.jpg'
-      strength={-200}
-      >
         <div className='hero-container'>
           {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
           <h1 class="a">About Raphiel</h1>
@@ -20,7 +15,6 @@ function HeroSection() {
               <a class="btns btn--outline btn--large no_style" href="#aboutme">LEARN MORE</a>
           </div>
         </div>
-      </Parallax>
     </div>
   );
 }
