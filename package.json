@@ -9,7 +9,7 @@
     "fs": "0.0.1-security",
     "jquery": "^3.2.1",
     "jquery-parallax.js": "^1.5.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "parallax": "0.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
